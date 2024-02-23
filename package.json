@@ -1,0 +1,25 @@
+{
+  "name": "discordjs-quickstart",
+  "version": "1.0.0",
+  "description": "This is a quick start project template for discord.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeathFull/discordjs-quickstart.git"
+  },
+  "keywords": [
+    "discordjs"
+  ],
+  "author": "DeathFull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeathFull/discordjs-quickstart/issues"
+  },
+  "homepage": "https://github.com/DeathFull/discordjs-quickstart#readme",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
