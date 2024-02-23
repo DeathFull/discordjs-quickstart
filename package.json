@@ -2,6 +2,7 @@
   "name": "discordjs-quickstart",
   "version": "1.0.0",
   "description": "This is a quick start project template for discord.js",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "node ."
@@ -20,6 +21,11 @@
   },
   "homepage": "https://github.com/DeathFull/discordjs-quickstart#readme",
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.70",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
   }
 }
