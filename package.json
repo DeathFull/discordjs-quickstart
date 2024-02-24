@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "This is a quick start project template for discord.js",
   "type": "module",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "dev": "node --watch ."
   },
   "repository": {
     "type": "git",
