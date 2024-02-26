@@ -1,6 +1,7 @@
 import { Client, Collection, Events, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
 import commandsHandler from './handlers/commandsHandler.js';
+import eventsHandler from './handlers/eventsHandler.js';
 
 dotenv.config();
 
@@ -11,8 +12,8 @@ commandsHandler(client).then(() => {
 	console.log('Commands loaded!');
 });
 
-client.once(Events.ClientReady, (readyClient) => {
-	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
+eventsHandler(client).then(() => {
+	console.log('Events loaded!');
 });
 
 client.login(process.env.BOT_TOKEN);
