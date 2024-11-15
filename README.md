@@ -4,7 +4,7 @@ This is a quick start project template for discord.js
 ## Installation
 1. Clone the repository
 2. Run `npm install` to install the dependencies
-3. Rename `.env.example` to `.env` and fill in the required values
+3. Rename `.env.default` to `.env` and fill in the required values
 4. Run `npm start` to start the bot
 5. Enjoy!
 6. (Optional) Run `npm run dev` to start the bot in development mode
